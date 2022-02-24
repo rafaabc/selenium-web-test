@@ -2,6 +2,7 @@ package dropdown;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
+import pages.DropdownPage;
 
 import java.util.List;
 
@@ -12,7 +13,7 @@ class DropdownTest extends BaseTest {
     @Test
     @DisplayName("When the dropdown button is opened, then an option is selected")
     void testSelectOption() {
-        var dropdownPage = homePage.clickDropdown();
+        DropdownPage dropdownPage = homePage.clickDropdown();
 
         String option = "Option 1";
         dropdownPage.selectFromDropdown(option);
