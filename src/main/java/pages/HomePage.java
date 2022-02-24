@@ -36,14 +36,19 @@ public class HomePage {
         return new KeyPressesPage(driver);
     }
 
-    public HorizontalSliderPage clickHorizontalSliderPage() {
+    public HorizontalSliderPage clickHorizontalSlider() {
         clickLink("Horizontal Slider");
         return new HorizontalSliderPage(driver);
     }
 
-    public JavaScriptAlertsPage clickJavaScriptAlertsPage() {
+    public JavaScriptAlertsPage clickJavaScriptAlerts() {
         clickLink("JavaScript Alerts");
         return new JavaScriptAlertsPage(driver);
+    }
+
+    public FileUploadPage clickFileUpload() {
+        clickLink("File Upload");
+        return new FileUploadPage(driver);
     }
 
     private void clickLink(String linkText){

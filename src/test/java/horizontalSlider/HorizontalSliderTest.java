@@ -12,7 +12,7 @@ public class HorizontalSliderTest extends BaseTest {
     @DisplayName("When interacting with the slider, then the slider meter is displayed accordingly")
     void testHorizontalSliderToWholeNumber() {
         String value = "4";
-        HorizontalSliderPage horizontalSliderPage = homePage.clickHorizontalSliderPage();
+        HorizontalSliderPage horizontalSliderPage = homePage.clickHorizontalSlider();
         horizontalSliderPage.setSliderValue(value);
         assertEquals(value, horizontalSliderPage.getSliderValue(), "Slider value is incorrect");
     }

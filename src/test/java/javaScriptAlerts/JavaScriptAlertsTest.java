@@ -11,7 +11,7 @@ class JavaScriptAlertsTest extends BaseTest {
     @Test
     @DisplayName("When confirming the JS Alert, then a success message is displayed")
     void testAcceptAlert() {
-        JavaScriptAlertsPage javaScriptAlertsPage = homePage.clickJavaScriptAlertsPage();
+        JavaScriptAlertsPage javaScriptAlertsPage = homePage.clickJavaScriptAlerts();
         javaScriptAlertsPage.triggerAlert();
         javaScriptAlertsPage.alert_clickToAccept();
         assertEquals("You successfully clicked an alert", javaScriptAlertsPage.getSuccessMessage());
@@ -20,7 +20,7 @@ class JavaScriptAlertsTest extends BaseTest {
     @Test
     @DisplayName("When opening the JS Confirm, then a message is displayed")
     void testGetTextFromAlert() {
-        JavaScriptAlertsPage javaScriptAlertsPage = homePage.clickJavaScriptAlertsPage();
+        JavaScriptAlertsPage javaScriptAlertsPage = homePage.clickJavaScriptAlerts();
         javaScriptAlertsPage.triggerConfirm();
         String text = javaScriptAlertsPage.alert_getText();
         javaScriptAlertsPage.alert_clickToDismiss();
@@ -30,7 +30,7 @@ class JavaScriptAlertsTest extends BaseTest {
     @Test
     @DisplayName("When filling a JS Prompt, then a message is displayed with the text previously filled")
     void testFillPrompt() {
-        JavaScriptAlertsPage javaScriptAlertsPage = homePage.clickJavaScriptAlertsPage();
+        JavaScriptAlertsPage javaScriptAlertsPage = homePage.clickJavaScriptAlerts();
         javaScriptAlertsPage.triggerPrompt();
         javaScriptAlertsPage.alert_fillPrompt("TAU is awesome!");
         assertEquals("You entered: TAU is awesome!", javaScriptAlertsPage.getSuccessMessage(), "Prompt text incorrect");

@@ -19,9 +19,10 @@ public class BaseTest {
 
     @BeforeEach
     void setupTest() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless");
+//        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/");
         homePage = new HomePage(driver);
