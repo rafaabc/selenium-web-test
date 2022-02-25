@@ -6,10 +6,10 @@ import pages.FileUploadPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class FileUploadTest extends BaseTest {
+class FileUploadTest extends BaseTest {
 
     @Test
-    @DisplayName("")
+    @DisplayName("When uploading a file, then the file should be successfully uploaded")
     void testFileUpload() {
         FileUploadPage fileUploadPage = homePage.clickFileUpload();
         fileUploadPage.uploadFile("C:\\Projects\\selenium-web-test\\src\\main\\resources\\uploadFileTest.txt");
