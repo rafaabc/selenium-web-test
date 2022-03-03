@@ -3,7 +3,7 @@ package keys;
 import base.BaseTest;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.Keys;
-import pages.KeyPressesPage;
+import pages.keys.KeyPressesPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

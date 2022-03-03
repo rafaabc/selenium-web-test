@@ -2,7 +2,7 @@ package frames;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.NestedFramePage;
+import pages.frames.NestedFramePage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

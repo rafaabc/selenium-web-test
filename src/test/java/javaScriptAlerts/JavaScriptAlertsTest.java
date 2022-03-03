@@ -2,7 +2,7 @@ package javaScriptAlerts;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.JavaScriptAlertsPage;
+import pages.javaScriptAlerts.JavaScriptAlertsPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

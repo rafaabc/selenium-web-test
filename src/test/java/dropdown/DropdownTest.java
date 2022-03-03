@@ -2,7 +2,7 @@ package dropdown;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.DropdownPage;
+import pages.dropdown.DropdownPage;
 
 import java.util.List;
 

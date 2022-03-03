@@ -2,7 +2,7 @@ package contextMenu;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.ContextMenuPage;
+import pages.contextMenu.ContextMenuPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

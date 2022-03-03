@@ -2,7 +2,7 @@ package frames;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.WysiwygEditorPage;
+import pages.frames.WysiwygEditorPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

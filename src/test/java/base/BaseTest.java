@@ -22,7 +22,6 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/");
         homePage = new HomePage(driver);

@@ -2,7 +2,7 @@ package hovers;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.HoversPage;
+import pages.hovers.HoversPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

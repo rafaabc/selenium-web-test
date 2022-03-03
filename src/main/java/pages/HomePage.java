@@ -2,6 +2,18 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import pages.contextMenu.ContextMenuPage;
+import pages.dropdown.DropdownPage;
+import pages.dynamicLoading.DynamicLoadingPage;
+import pages.fileUpload.FileUploadPage;
+import pages.forgotPassword.ForgotPasswordPage;
+import pages.frames.FramesPage;
+import pages.frames.WysiwygEditorPage;
+import pages.horizontalSlider.HorizontalSliderPage;
+import pages.hovers.HoversPage;
+import pages.javaScriptAlerts.JavaScriptAlertsPage;
+import pages.keys.KeyPressesPage;
+import pages.login.LoginPage;
 
 public class HomePage {
 
@@ -64,6 +76,11 @@ public class HomePage {
     public FramesPage clickFrames() {
         clickLink("Frames");
         return new FramesPage(driver);
+    }
+
+    public DynamicLoadingPage clickDynamicLoading() {
+        clickLink("Dynamic Loading");
+        return new DynamicLoadingPage(driver);
     }
 
     private void clickLink(String linkText){

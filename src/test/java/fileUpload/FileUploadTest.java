@@ -2,7 +2,7 @@ package fileUpload;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.FileUploadPage;
+import pages.fileUpload.FileUploadPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

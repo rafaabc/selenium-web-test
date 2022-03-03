@@ -2,8 +2,8 @@ package login;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.LoginPage;
-import pages.SecureAreaPage;
+import pages.login.LoginPage;
+import pages.login.SecureAreaPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -2,7 +2,7 @@ package horizontalSlider;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.HorizontalSliderPage;
+import pages.horizontalSlider.HorizontalSliderPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 

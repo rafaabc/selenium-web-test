@@ -2,8 +2,8 @@ package forgotPassword;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.EmailSentPage;
-import pages.ForgotPasswordPage;
+import pages.forgotPassword.EmailSentPage;
+import pages.forgotPassword.ForgotPasswordPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 
