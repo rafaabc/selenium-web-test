@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pages.HomePage;
+import utils.WindowManager;
 
 public class BaseTest {
 
@@ -32,5 +33,9 @@ public class BaseTest {
         if (driver != null) {
             driver.quit();
         }
+    }
+
+    public WindowManager getWindowManager() {
+        return new WindowManager(driver);
     }
 }
