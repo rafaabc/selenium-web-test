@@ -3,7 +3,7 @@ package navigation;
 import base.BaseTest;
 import org.junit.jupiter.api.*;
 
-public class NavigationTest extends BaseTest {
+class NavigationTest extends BaseTest {
 
     @Test
     @DisplayName("Should test the navigator throughout the pages")
