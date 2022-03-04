@@ -6,7 +6,7 @@ import pages.frames.NestedFramePage;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class NestedFramesTest extends BaseTest {
+class NestedFramesTest extends BaseTest {
 
     @Test
     @DisplayName("When there is a nested frame with a text, then it should retrieve the text successfully")

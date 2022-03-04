@@ -6,7 +6,7 @@ import pages.hovers.HoversPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class HoversTest extends BaseTest {
+class HoversTest extends BaseTest {
 
     @Test
     @DisplayName("When hovering over a figure, then a caption is displayed")

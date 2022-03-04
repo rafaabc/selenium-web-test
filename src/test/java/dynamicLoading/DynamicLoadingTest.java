@@ -7,7 +7,7 @@ import pages.dynamicLoading.DynamicLoadingExample2Page;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class DynamicLoadingTest extends BaseTest {
+class DynamicLoadingTest extends BaseTest {
 
     @Test
     @DisplayName("When there is a loading icon, then it should handles the wait until is hidden")

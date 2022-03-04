@@ -11,8 +11,10 @@ import pages.frames.FramesPage;
 import pages.frames.WysiwygEditorPage;
 import pages.horizontalSlider.HorizontalSliderPage;
 import pages.hovers.HoversPage;
+import pages.infiniteScroll.InfiniteScrollPage;
 import pages.javaScriptAlerts.JavaScriptAlertsPage;
 import pages.keys.KeyPressesPage;
+import pages.largeAndDeepDom.LargeAndDeepDomPage;
 import pages.login.LoginPage;
 
 public class HomePage {
@@ -81,6 +83,16 @@ public class HomePage {
     public DynamicLoadingPage clickDynamicLoading() {
         clickLink("Dynamic Loading");
         return new DynamicLoadingPage(driver);
+    }
+
+    public LargeAndDeepDomPage clickLargeAndDeepDom() {
+        clickLink("Large & Deep DOM");
+        return new LargeAndDeepDomPage(driver);
+    }
+
+    public InfiniteScrollPage clickInfiniteScroll() {
+        clickLink("Infinite Scroll");
+        return new InfiniteScrollPage(driver);
     }
 
     private void clickLink(String linkText){

@@ -6,7 +6,7 @@ import pages.horizontalSlider.HorizontalSliderPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class HorizontalSliderTest extends BaseTest {
+class HorizontalSliderTest extends BaseTest {
 
     @Test
     @DisplayName("When interacting with the slider, then the slider meter is displayed accordingly")

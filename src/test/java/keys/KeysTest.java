@@ -7,7 +7,7 @@ import pages.keys.KeyPressesPage;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class KeysTest extends BaseTest {
+class KeysTest extends BaseTest {
 
     @Test
     @DisplayName("When key is pressed, then a success message is displayed")
